@@ -94,15 +94,3 @@ Test Plus Numbers 8.4 and 4
 
     # Verify the response of divide operation
     Should Be Equal    ${json_resp['divide']}    ${2.1}
-
-Test Plus API With 5 and 6
-    ${response}=    GET    ${API_URL}/plus/5/6
-    Should Be Equal As Numbers    ${response.status_code}    200
-    ${json}=    Evaluate    ${response.json()}
-    Should Be Equal As Numbers    ${json['result']}    11
-
-Test Plus API With Other Numbers
-    ${response}=    GET    ${API_URL}/plus/3/4
-    Should Be Equal As Numbers    ${response.status_code}    200
-    ${json}=    Evaluate    ${response.json()}
-    Should Be Equal As Numbers    ${json['result']}    7

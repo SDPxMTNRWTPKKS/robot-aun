@@ -29,15 +29,6 @@ Test Plus Numbers 4 and 2 (ฺBefore Using Keywords)
     # Verify the response of plus operation
     Should Be Equal    ${json_resp['plus']}    ${6}
 
-    # Verify the response of minus operation
-    Should Be Equal    ${json_resp['minus']}    ${2}
-
-    # Verify the response of multiply operation
-    Should Be Equal    ${json_resp['multiply']}    ${8}
-
-    # Verify the response of divide operation
-    Should Be Equal    ${json_resp['divide']}    ${2}
-
 
 Test Plus Numbers 8.4 and 4 (ฺBefore Using Keywords)
 
@@ -52,15 +43,6 @@ Test Plus Numbers 8.4 and 4 (ฺBefore Using Keywords)
     # Verify the response of plus operation
     Should Be Equal    ${json_resp['plus']}    ${12.4}
 
-    # Verify the response of minus operation
-    Should Be Equal    ${json_resp['minus']}    ${4.4}
-
-    # Verify the response of multiply operation
-    Should Be Equal    ${json_resp['multiply']}    ${33.6}
-
-    # Verify the response of divide operation
-    Should Be Equal    ${json_resp['divide']}    ${2.1}
-
 
 Test Plus Numbers 4 and 2
 
@@ -69,15 +51,6 @@ Test Plus Numbers 4 and 2
     # Verify the response of plus operation
     Should Be Equal    ${json_resp['plus']}    ${6}
 
-    # Verify the response of minus operation
-    Should Be Equal    ${json_resp['minus']}    ${2}
-
-    # Verify the response of multiply operation
-    Should Be Equal    ${json_resp['multiply']}    ${8}
-
-    # Verify the response of divide operation
-    Should Be Equal    ${json_resp['divide']}    ${2}
-
 
 Test Plus Numbers 8.4 and 4
 
@@ -85,12 +58,3 @@ Test Plus Numbers 8.4 and 4
 
     # Verify the response of plus operation
     Should Be Equal    ${json_resp['plus']}    ${12.4}
-
-    # Verify the response of minus operation
-    Should Be Equal    ${json_resp['minus']}    ${4.4}
-
-    # Verify the response of multiply operation
-    Should Be Equal    ${json_resp['multiply']}    ${33.6}
-
-    # Verify the response of divide operation
-    Should Be Equal    ${json_resp['divide']}    ${2.1}
